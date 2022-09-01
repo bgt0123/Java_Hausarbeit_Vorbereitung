@@ -10,10 +10,11 @@ Zunächst werden dafür die Grundlagen der OOP wiederholt, um dann die behandelt
 5. Subklasse
 6. Kohäsion
 7. Abstrakte Methoden
-8. Abstrakte Klassen
+8. Abstrakte Test.Klassen
 9. Refactoring
 10. Subtyping 
 11. Late Binding
+12. Innere Klassen
 
 
 
@@ -35,3 +36,8 @@ Zunächst werden dafür die Grundlagen der OOP wiederholt, um dann die behandelt
 15. Mockito (https://danonrockstar.com/the-way-you-are-using-mocks-is-wrong-5de17cb0bbb4)
 16. Maven
 17. Packages
+
+
+#IntelliJ Tipps & Tricks:
+- Creating a Class Diagram = left click on Package & Press CTRL+ALT+Shift+U
+- View Class Diagramm left = click on Package & Press CTRL+ALT+Shift+D
