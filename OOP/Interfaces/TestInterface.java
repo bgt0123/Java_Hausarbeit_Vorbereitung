@@ -1,4 +1,4 @@
-package Test;
+package OOP.Interfaces;
 
 public interface TestInterface {
     int Klassen_nr = 0;

@@ -3,18 +3,14 @@ Dies ist eine Vorbereitung für die Hausarbeit in PdSe bei Herr Zimmermann.
 Zunächst werden dafür die Grundlagen der OOP wiederholt, um dann die behandelten Punkte abzuarbeiten.
 
 # Objektorientierte Programmierung
-1. Klassen
-2. Konstruktor
+1. Klassen -> Konstruktor, Getter & Setter, Innere Klassen
+2. Vererbung -> Superklasse, Subklasse
 3. Interfaces
-4. Superklasse
-5. Subklasse
-6. Kohäsion
-7. Abstrakte Methoden
-8. Abstrakte Test.Klassen
-9. Refactoring
-10. Subtyping 
-11. Late Binding
-12. Innere Klassen
+4. Abstraktion -> Abstrakte Methoden, Abstrakte Klassen
+5. Kohäsion & Kopplung
+6. Refactoring
+7. Subtyping 
+8. Late Binding
 
 
 

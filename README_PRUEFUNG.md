@@ -6,3 +6,4 @@ richtig angewendet worden:
 - Wie gut sind die Programme erweiterbar? 
 - Wie gut sind die Programme wartbar? 
 - Wie gut sind die Programme getestet?
+

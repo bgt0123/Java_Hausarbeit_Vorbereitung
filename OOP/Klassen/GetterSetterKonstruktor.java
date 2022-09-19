@@ -1,5 +1,4 @@
-package Test;
-
+package OOP.Klassen;
 /**
  * Test.Klassen = Baupläne/Schablonen für Objekte.Eine Klasse beschreibt den Zustandsraum und das Verhalten für
  * gleichartige Objekte.
@@ -7,11 +6,11 @@ package Test;
  * Konstruktor = Initialisieren Objekte und bringen sie in einen konsistenten Anfangszustand
  */
 
-public class Klassen {
+public class GetterSetterKonstruktor {
     private int Klassen_nr; // Variablen sind für ein Objekt nie auf public zu setzten (Kapselung)
     private String Klassenname;
 
-    Klassen(int Klassen_nr, String Klassenname){ //Dies ist ein Konstruktor - wird beim Erstellen eines Objektes der Klasse von Nutzen gemacht --> Gibt es diese nicht, wird ein Leerer Konstruktor gestellt
+    GetterSetterKonstruktor(int Klassen_nr, String Klassenname){ //Dies ist ein Konstruktor - wird beim Erstellen eines Objektes der Klasse von Nutzen gemacht --> Gibt es diese nicht, wird ein Leerer Konstruktor gestellt
         this.Klassen_nr = Klassen_nr;
         this.Klassenname = Klassenname;
     }
