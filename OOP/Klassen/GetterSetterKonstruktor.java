@@ -3,7 +3,10 @@ package OOP.Klassen;
  * Test.Klassen = Baupläne/Schablonen für Objekte.Eine Klasse beschreibt den Zustandsraum und das Verhalten für
  * gleichartige Objekte.
  *
- * Konstruktor = Initialisieren Objekte und bringen sie in einen konsistenten Anfangszustand
+ * Getter und Setter = Zugriffsmethoden für Klassen; bei boolen werden diese isXXX() genannt
+ *
+ * Konstruktor = Initialisieren Objekte und bringen sie in einen konsistenten Anfangszustand --> ! Achtung Konstruktore werden nicht vererbt
+ * --> dafür muss in der ersten Zeile "super()" aufgerufen werden welches den Konstruktor der Superklasse aufruft
  */
 
 public class GetterSetterKonstruktor {

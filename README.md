@@ -37,3 +37,38 @@ Zunächst werden dafür die Grundlagen der OOP wiederholt, um dann die behandelt
 #IntelliJ Tipps & Tricks:
 - Creating a Class Diagram = left click on Package & Press CTRL+ALT+Shift+U
 - View Class Diagramm left = click on Package & Press CTRL+ALT+Shift+D
+
+#Generelle Tipps & Tricks
+- Dezimalzahlen wie Eurocents, sollten in Cents benutzt werden und nicht in Doubles gerechnet werden
+- Bsp.: 200 €cents antatt 2,00 €
+- Packetnamen sollten i.d.R. komplett klein geschrieben werden
+- Klassengröße = Mehr als 50 Lines of Code ist eine große Klasse --> Mehrere Kleine Klassen sind besser als einzelne große, um die Lesbarkeit zu verbessern
+- Methodengröße = Mehr als 10 Lines of Code sind lang --> Besser mehrere kleine
+- In der Super und Subklasse sollten nicht 2-mal die gleiche Variable definiert werden --> dies kann später zu Problemen führen
+- Interfaces sollten so schlank wie möglich definiert werden
+- 
+
+# Wichtige Definitionen aus der Vorlesung
+- Exemplarvariablen --> Variablen die außerhalb der Methoden definiert sind und mit den Konstruktor initialisiert werden
+--> Signatur= private TYP NAME --> Stellt eine Kapselung sicher bei der getter & setter verwendet werden sollen
+- Exemplarvariablen bestehen für die Dauer des Objektes
+- Strategie Klasse = Diese Klassen implementieren die Business Logik, worin es giöt Duplikationen zu vermeiden durch Interfaces und den entsprechenden Klassen
+ Zudem weiß die Startegie Klasse nicht was in hinter dem Interface steht. --> Sollte aus Sicherheitsgründen und der Kapselung auch nicht so sein
+- 
+
+# Konzepte
+- DTSTTMPW = "Do the simplest thing that might possibly work" ->
+- DRY = "Don't repeat yourself" ->
+- Erweiterbarkeit = Beeinflusst die Code basis nicht sonder erweitert die Funktionalität einer Klasse bspw. eines Objektes 
+  (Code-Modifikationen != Erweiterungen) --> Prinzip "Never Change a running System" --> Diese Erweiterbarkeit wird i.d.R. durch Interfaces ermöglicht
+    ! Zu viele Erweiterungspunkte sind nicht effektiv
+- protected = Erlaub den Zugriff der Subklassen auf die Variablen (sollte aber vermieden werden da protected das Geheimnisprinzip verletzt)
+- Abstraktion = Möglichkeit Bestandteile zu ignorieren, um den Fokus der Betrachtung auf eine höhere Ebene lenken zu können.
+- Modularisierung = Zerlegung eines Ganzen in wohldefinierte Tiele, die getrennt erstellt und untersucht werden können
+und die in wohldefinierter Weise interagieren
+- Wiederverwendbarkeit = DRY Prinzip verfolgen, um die Wartbarkeit zu vermindern --> Daher das Prinzip der Vererbung und Interfaces
+- Polymorphie = Variablen sind Polymorph da ein Objekt einer Implementierten Klasse auf ein Interfacetyp zugewiesen werden kann (bspw. IPost p = new MessagePost();)
+- Subtyping
+- Kapselung
+- Geheimnisprinzip = private Exemplarvariablen können nicht in der Unterklasse benutzt werden
+- 
