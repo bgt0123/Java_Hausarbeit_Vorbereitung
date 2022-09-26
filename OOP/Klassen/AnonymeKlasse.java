@@ -3,7 +3,7 @@ package OOP.Klassen;
 
 /**
  * Anonyme Klassen sollten verwendet werden, wenn Variablen definiert werden sollen
- * oder hinzuzügliche Methoden definiert werden sollen
+ * oder hinzufügende Methoden definiert werden sollen
  * --> definiert und instantiert
  * ähnelt verschachtelte Klassen
  */

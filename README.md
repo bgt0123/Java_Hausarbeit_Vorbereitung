@@ -63,11 +63,11 @@ Zunächst werden dafür die Grundlagen der OOP wiederholt, um dann die behandelt
   (Code-Modifikationen != Erweiterungen) --> Prinzip "Never Change a running System" --> Diese Erweiterbarkeit wird i.d.R. durch Interfaces ermöglicht
     ! Zu viele Erweiterungspunkte sind nicht effektiv
 - protected = Erlaub den Zugriff der Subklassen auf die Variablen (sollte aber vermieden werden da protected das Geheimnisprinzip verletzt)
-- Abstraktion = Möglichkeit Bestandteile zu ignorieren, um den Fokus der Betrachtung auf eine höhere Ebene lenken zu können.
+- Abstraktion = Möglichkeit Bestandteile zu ignorieren, um den Fokus der Betrachtung auf eine höhere Ebene lenken zu können.(wie eine Schablone)
 - Modularisierung = Zerlegung eines Ganzen in wohldefinierte Tiele, die getrennt erstellt und untersucht werden können
 und die in wohldefinierter Weise interagieren
 - Wiederverwendbarkeit = DRY Prinzip verfolgen, um die Wartbarkeit zu vermindern --> Daher das Prinzip der Vererbung und Interfaces
-- Polymorphie = Variablen sind Polymorph da ein Objekt einer Implementierten Klasse auf ein Interfacetyp zugewiesen werden kann (bspw. IPost p = new MessagePost();)
+- Polymorphie = Variablen sind Polymorph da ein Objekt einer implementierten Klasse auf ein Interfacetyp zugewiesen werden kann (bspw. IPost p = new MessagePost();)
 - Subtyping
 - Kapselung
 - Geheimnisprinzip = private Exemplarvariablen können nicht in der Unterklasse benutzt werden

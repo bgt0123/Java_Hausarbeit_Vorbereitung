@@ -13,7 +13,7 @@ public class Klassen {
         anonymeKlasse1.createClass();
 
        // Getter & Setter
-
+        GetterSetterKonstruktor Outer3 = new GetterSetterKonstruktor(1,"hallo");
 
 
     }

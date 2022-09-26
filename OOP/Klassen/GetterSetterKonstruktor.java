@@ -3,7 +3,7 @@ package OOP.Klassen;
  * Test.Klassen = Baupläne/Schablonen für Objekte.Eine Klasse beschreibt den Zustandsraum und das Verhalten für
  * gleichartige Objekte.
  *
- * Getter und Setter = Zugriffsmethoden für Klassen; bei boolen werden diese isXXX() genannt
+ * Getter und Setter = Zugriffsmethoden für Klassen; bei boolean werden diese isXXX() genannt
  *
  * Konstruktor = Initialisieren Objekte und bringen sie in einen konsistenten Anfangszustand --> ! Achtung Konstruktore werden nicht vererbt
  * --> dafür muss in der ersten Zeile "super()" aufgerufen werden welches den Konstruktor der Superklasse aufruft
@@ -13,7 +13,7 @@ public class GetterSetterKonstruktor {
     private int Klassen_nr; // Variablen sind für ein Objekt nie auf public zu setzten (Kapselung)
     private String Klassenname;
 
-    GetterSetterKonstruktor(int Klassen_nr, String Klassenname){ //Dies ist ein Konstruktor - wird beim Erstellen eines Objektes der Klasse von Nutzen gemacht --> Gibt es diese nicht, wird ein Leerer Konstruktor gestellt
+   public GetterSetterKonstruktor(int Klassen_nr, String Klassenname){ //Dies ist ein Konstruktor - wird beim Erstellen eines Objektes der Klasse von Nutzen gemacht --> Gibt es diese nicht, wird ein Leerer Konstruktor gestellt
         this.Klassen_nr = Klassen_nr;
         this.Klassenname = Klassenname;
     }
