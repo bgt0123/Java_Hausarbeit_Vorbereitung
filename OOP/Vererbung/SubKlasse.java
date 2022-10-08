@@ -1,5 +1,6 @@
 package OOP.Vererbung;
 
+
 public class SubKlasse extends Vererbung{ // Wenn man die Abstrakte Method nicht mit implementieren möchte, gilt es die Signatur der Subklasse auch abstrakt zu machen
     private int lokaleVariable;
     private String name;

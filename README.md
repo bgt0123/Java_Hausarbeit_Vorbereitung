@@ -46,7 +46,13 @@ Zunächst werden dafür die Grundlagen der OOP wiederholt, um dann die behandelt
 - Methodengröße = Mehr als 10 Lines of Code sind lang --> Besser mehrere kleine
 - In der Super und Subklasse sollten nicht 2-mal die gleiche Variable definiert werden --> dies kann später zu Problemen führen
 - Interfaces sollten so schlank wie möglich definiert werden
+- leere Catch Blöcke sollen vermieden werden
+- Pckages klein schreiben (Lower Case)
+- Programme sollten nicht durch Exceptions beendet werden
+- Der Anwender darf niemals eine Stacktrace sehen
+- Fehler sollten spezifiziert sein --> also nicht "Fehler aufgetreten!"
 - 
+
 
 # Wichtige Definitionen aus der Vorlesung
 - Exemplarvariablen --> Variablen die außerhalb der Methoden definiert sind und mit den Konstruktor initialisiert werden
