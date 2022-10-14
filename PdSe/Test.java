@@ -20,5 +20,9 @@ public class Test {
             System.out.println("Leeres Array Übergeben!");
             //e.printStackTrace();
         }
+
+
+        // JUnit tests
+
     }
 }
